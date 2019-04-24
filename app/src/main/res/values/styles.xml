@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
+        <item name="tabStyle">@style/Widget.Design.TabLayout</item>
+
+    </style>
+
+    <style name="Start" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhitedark</item>
+        <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorWhitedark</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="profile" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorTerms</item>
+        <item name="colorPrimaryDark">@color/colorSecond</item>
+        <item name="colorAccent">@color/colorFirst</item>
+
+    </style>
+
+</resources>
